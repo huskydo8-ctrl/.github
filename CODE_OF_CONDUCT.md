@@ -1,4 +1,179 @@
-# Contributor Covenant Code of Conduct
+Create a complete Android gaming utility app named:
+
+WOLF 99
+
+IMPORTANT:
+Build this as a real native Android app using Kotlin and Jetpack Compose.
+Do not use Google AI Studio preview URLs.
+Do not use browser authentication, cookies, iframes, remote HTML, or cloud preview dependencies.
+The app must work offline except when launching the installed game.
+
+DESIGN:
+Use the uploaded reference screenshots as visual inspiration.
+Create a premium black + deep red gaming interface.
+Use rounded dark cards, red neon accents, subtle glow, smooth animations,
+large modern buttons, and a professional gaming dashboard.
+
+APP NAME:
+WOLF 99
+
+PASSWORD:
+wolf99
+
+LOGIN SCREEN:
+- WOLF 99 logo at the top
+- Dark black background
+- Red glowing circular wolf-style logo
+- Password field
+- Password must be "wolf99"
+- Show/hide password button
+- Red LOGIN button
+- If incorrect, show "Wrong password"
+- Smooth fade/scale animation after successful login
+
+HOME DASHBOARD:
+Header:
+WOLF 99
+"Gaming Performance Center"
+
+Show cards:
+Device Status
+RAM Status
+Battery
+Temperature
+Available Storage
+
+Main buttons:
+1. BOOST PERFORMANCE
+2. FPS OPTIMIZER
+3. GAME LAUNCHER
+4. PERFORMANCE TOOLS
+5. SETTINGS
+
+GAME LAUNCHER:
+Create a Free Fire launcher card with:
+FREE FIRE
+FREE FIRE MAX
+
+Buttons:
+PLAY FREE FIRE
+PLAY FREE FIRE MAX
+
+Use Android package intents to launch the game if it is installed.
+If the game is not installed, show:
+"Game not installed"
+
+Do not embed the actual game using an iframe or remote browser.
+The launcher should simply launch the installed Android game safely.
+
+FPS OPTIMIZER:
+Create a clean page containing legitimate optimization options such as:
+
+FPS Mode:
+Normal
+Balanced
+Performance
+
+Graphics recommendation:
+Low
+Medium
+High
+
+Battery Saver
+Background App Reminder
+Performance Status
+Storage Check
+RAM Information
+
+When the user presses BOOST PERFORMANCE:
+- Show an animated progress indicator
+- Display optimization steps
+- Explain that Android restrictions prevent an ordinary app from
+directly changing another game's internal FPS or graphics settings.
+- Finish with "Optimization Ready"
+
+PERFORMANCE TOOLS:
+Cards:
+FPS Monitor UI
+RAM Monitor
+Battery Monitor
+Storage Monitor
+Device Information
+
+These should display real Android-readable information where permissions/APIs allow it.
+Do not claim to unlock unsupported FPS values.
+
+GAME PANEL:
+Create a red/black panel inspired by gaming utility dashboards.
+
+Include visual-only demo buttons named:
+AIM ASSIST DEMO
+SENSITIVITY GUIDE
+CROSSHAIR GUIDE
+CONTROL GUIDE
+
+IMPORTANT:
+These are informational/demo UI only.
+Do NOT implement aimbot, aim lock, bypass, anti-ban bypass,
+memory modification, injection, recoil scripts, or cheating functionality.
+
+SETTINGS:
+- Dark mode
+- Red theme
+- Sound effects toggle
+- Vibration toggle
+- Reset app
+- About WOLF 99
+
+ABOUT:
+"WOLF 99 Gaming Performance Utility"
+Version 1.0
+
+BOTTOM NAVIGATION:
+HOME
+TOOLS
+GAMING
+ABOUT
+
+VISUAL STYLE:
+- Black background
+- Deep red accent
+- White text
+- Red glowing buttons
+- Rounded cards
+- Modern gaming typography
+- Smooth transitions
+- Professional spacing
+- No excessive animations that reduce performance
+
+SECURITY:
+Keep the password check local.
+Do not send the password anywhere.
+Do not use external authentication.
+Do not load any remote webpage.
+
+ANDROID:
+Use Kotlin + Jetpack Compose.
+Generate all required Gradle files.
+Generate AndroidManifest.xml.
+Generate all Kotlin source files.
+Generate resources and icons/placeholders.
+Make the project buildable into an APK.
+
+The final result should look like a premium
+"WOLF 99 Gaming Performance Center"
+rather than a generic Android app.BUILD REQUIREMENTS:
+- Generate a complete Android Studio project.
+- Use Gradle Kotlin DSL.
+- Use a stable Android Gradle Plugin and compatible Kotlin version.
+- Do not leave TODOs, placeholder implementations, missing imports, or missing files.
+- Make sure the project compiles successfully.
+- Build a debug APK and provide the APK file as a downloadable artifact.
+- The APK must install directly on an Android phone.
+- Do not require Google AI Studio, Firebase Studio, a browser preview, or any cloud authentication to run the installed APK.
+- All app UI must be packaged inside the APK.
+- If a requested Android API is restricted, implement the closest legitimate alternative and clearly show the limitation in the UI.
+- Do not request unnecessary permissions.# Contributor Covenant Code of Conduct
 
 ## Our Pledge
 
